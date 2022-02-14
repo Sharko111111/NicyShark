@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>Test Title</title>
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    </head>
+    <body>
+
+        <div class="center">
+          <h1 class="text">Login</h1>
+          <form method="post">
+            <div class="textcred">
+              <input type="text" required>
+              <span></span>
+              <label>Username</label>
+            </div>
+            <div class="textcred">
+              <input type="password" required>
+              <span></span>
+              <label>Password</label>
+            </div>
+            <div class="pass">Forgot Password?</div>
+            <input type="submit" value="Login">
+
+          </form>
+        </div>
+    </body>
+</html>
